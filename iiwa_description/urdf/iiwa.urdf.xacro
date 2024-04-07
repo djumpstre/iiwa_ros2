@@ -174,7 +174,7 @@
         <inertia ixx="0.01"  ixy="0"  ixz="0" iyy="0.01" iyz="0" izz="0.01" />
       </inertial>
   </link>
-  <link name="${prefix}tool0"/>
+  <link name="${prefix}iiwa_tool0"/>
 
   <joint name="${prefix}joint_a1" type="revolute">
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -228,7 +228,7 @@
   <joint name="${prefix}joint_a7-tool0" type="fixed">
       <origin rpy="0 0 0" xyz="0 0 0.154"/>
       <parent link="${prefix}link_7"/>
-      <child link="${prefix}tool0"/>
+      <child link="${prefix}iiwa_tool0"/>
       <axis xyz="0 0 0"/>
   </joint>
 
